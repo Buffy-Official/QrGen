@@ -42,7 +42,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.qrgen.QRCodeApp</mainClass>
+                            <mainClass>com.qrgen.QRCodeStudio</mainClass>
                         </manifest>
                     </archive>
                     <finalName>QrGen</finalName>
