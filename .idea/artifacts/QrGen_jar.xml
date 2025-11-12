@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="QrGen:jar">
+  <artifact type="jar" name="QrGen:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/QrGen_jar</output-path>
     <root id="archive" name="QrGen.jar">
       <element id="module-output" name="QrGen" />
@@ -7,7 +7,6 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/beust/jcommander/1.82/jcommander-1.82.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/zxing/core/3.5.3/core-3.5.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/zxing/javase/3.5.3/javase-3.5.3.jar" path-in-jar="/" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/qrgen/icon.png" />
     </root>
   </artifact>
 </component>
