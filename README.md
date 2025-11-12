@@ -9,8 +9,8 @@
 
 ## Questions
 * **What is QrGen?**
-  QrGen is a Java App I made to generate QR Codes without dealing with creating accounts and ads.
+> QrGen is a Java App I made to generate QR Codes without dealing with creating accounts and ads.
 * **Does QrGen collect data?**
-  No. Privacy is important and there is no reason to collect data or cookies at all
+> No. Privacy is important and there is no reason to collect data or cookies at all
 * **Will this be updated in the future?**
-  Possibly, but I am unsure for now.
+> Possibly, but I am unsure for now.
