@@ -1,4 +1,6 @@
 # QrGen
+> [!WARNING]
+> Currently this Java App supports Windows 10/11 only.
 ## Build
 1. Make sure git is installed, if not install it [Here](https://git-scm.com/install/windows).
 2. Make sure the latest version of Java is installed, if not install it [Here](https://www.oracle.com/asean/java/technologies/downloads/#jdk25-windows).
@@ -10,7 +12,7 @@
 ## Questions
 * **What is QrGen?**
 > QrGen is a Java App I made to generate QR Codes without dealing with creating accounts and ads.
-* **Does QrGen collect data?**
+* **Does QrGen collect/store data?**
 > No. Privacy is important and there is no reason to collect data or cookies at all
 * **Will this be updated in the future?**
-> Possibly, but I am unsure for now.
+> Currently is in active development to add new features and fix bugs.
