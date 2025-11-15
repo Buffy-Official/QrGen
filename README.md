@@ -1,13 +1,15 @@
 # QrGen
 > [!WARNING]
 > Currently this Java App supports Windows 10/11 only.
-## Build
-1. Make sure git is installed, if not install it [Here](https://git-scm.com/install/windows).
-2. Make sure the latest version of Java is installed, if not install it [Here](https://www.oracle.com/asean/java/technologies/downloads/#jdk25-windows).
-3. Clone this repo: `git clone https://github.com/Buffy-Official/QrGen.git`
-4. Head to the directory: `cd QrGen`
-5. Type `mvn clean package`
-6. JAR file has been created and located at `QrGen\target` directory with the name `QrGen.jar`.
+### Build (**Follow from 1 to 7**)
+1. Install git [Here](https://git-scm.com/install/windows) if you don't have it.
+2. Install the latest version of Java [Here](https://www.oracle.com/asean/java/technologies/downloads/#jdk25-windows).
+3. Install Chocolatey [Here](https://chocolatey.org/install#individual).
+4. Install Maven by typing: `choco install maven`
+5. Clone this repo: `git clone https://github.com/Buffy-Official/QrGen.git`
+6. Head to the directory: `cd QrGen`
+7. Type `mvn clean package`
+8. JAR file has been created and located at `QrGen\target` directory with the name `QrGen.jar`.
 
 ## Questions
 * **What is QrGen?**
