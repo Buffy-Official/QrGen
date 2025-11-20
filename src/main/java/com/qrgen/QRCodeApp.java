@@ -30,7 +30,7 @@ class QRCodeStudio {
     }
 
     private static void createAndShowGUI() {
-        JFrame frame = new JFrame("QR Code Studio");
+        JFrame frame = new JFrame("QR Code Generator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 700);
         frame.setLocationRelativeTo(null);
@@ -51,7 +51,7 @@ class QRCodeStudio {
         gbc.gridx = 0; gbc.gridy = 0; gbc.weightx = 1; gbc.gridwidth = 3;
         topPanel.add(textField, gbc);
 
-        String[] types = {"Plain Text", "URL", "Email", "Phone", "SMS", "Wi-Fi"};
+        String[] types = {"Plain Text", "URL", "Email", "Phone", "SMS"};
         JComboBox<String> typeBox = new JComboBox<>(types);
         gbc.gridx = 3; gbc.gridy = 0; gbc.weightx = 0; gbc.gridwidth = 1;
         topPanel.add(typeBox, gbc);
@@ -147,10 +147,9 @@ class QRCodeStudio {
             frame.getContentPane().setBackground(bg);
             topPanel.setBackground(panel);
             bottomPanel.setBackground(panel);
-            qrLabel.setBackground(bgColor);
+            qrLabel.setBackground(panel);
         });
 
-        // Regenerate QR on resize sine why not?
         qrLabel.addComponentListener(new ComponentAdapter() {
             public void componentResized(ComponentEvent e) { updateQRCodeFromLast(qrLabel); }
         });
@@ -165,7 +164,6 @@ class QRCodeStudio {
             case "Email": text = "mailto:" + text; break;
             case "Phone": text = "tel:" + text; break;
             case "SMS": text = "sms:" + text; break;
-            case "Wi-Fi": text = "WIFI:S:" + text + ";T:WPA;P:password;;"; break;
         }
         return text;
     }
