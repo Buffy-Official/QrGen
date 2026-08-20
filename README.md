@@ -1,7 +1,12 @@
 # QrGen
+> [!IMPORTANT]
+> As of Jan 1 2026, this project is no longer maintained or under development.\
+> As I don't really have time to develop or maintain the app, I will find some time to publish the Linux version with the new and improved app.
+
 > [!WARNING]
-> Currently this Java App supports Windows 10/11 only.
-### Build (**Follow from 1 to 7**)
+> **Currently QrGen only supports Windows 10/11 only.**
+
+### Build
 1. Install git [Here](https://git-scm.com/install/windows) if you don't have it.
 2. Install the latest version of Java [Here](https://www.oracle.com/asean/java/technologies/downloads/#jdk25-windows).
 3. Install Chocolatey [Here](https://chocolatey.org/install#individual).
@@ -16,5 +21,5 @@
 > QrGen is a Java App I made to generate QR Codes without dealing with creating accounts and ads.
 * **Does QrGen collect/store data?**
 > No. Privacy is important and there is no reason to collect data or cookies at all
-* **Will this be updated in the future?**
-> Currently is in active development to add new features and fix bugs.
+* **I found a vulnerability where do I report it?**
+> You may report security issues at [Project Vulnerability Report](https://github.com/Buffy-Official/QrGen/security/advisories/new)
